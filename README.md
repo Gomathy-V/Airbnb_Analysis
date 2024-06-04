@@ -6,11 +6,11 @@
 
 ### Dataset
 
-- This Airbnb dataset contains nearly 49,000 observations from New York , with 16 columns of data. The Data includes both categorical and numeric values, providing a diverse range of information about the listings.
+- This Airbnb dataset contains nearly 49,000 observations from New York , with 16 columns of data. The data includes both categorical and numeric values, providing a diverse range of information about the listings.
 
 ### Tools and Technologies
 
-- **Programming Languages:** Python
+- **Programming Language:** Python
 - **IDE/Code Editor:** Jupyter Notebook
 - **Data Analysis Libraries:** Pandas, NumPy
 - **Visualization Tools:** Matplotlib, Seaborn
@@ -19,56 +19,56 @@
 - In the initial data preparation phase, we performed the following tasks:
 
   - Familiarizing with data and inspected data.
-  - Rename the columns name for better understanding.
-  - Handle null value in the dataset.
-  - Check the presence of outliers & remove it using IQR.
+  - Renamed the column names for better understanding.
+  - Handled null values in the dataset.
+  - Checked the presence of outliers & removed it using Inter Quartile Range (IQR).
 
 ### Exploratory Data Analysis
 - Performed an exploratory data analysis to visualize and analyze the trends and patterns in the Airbnb booking.
 
 #### EDA involved exploring the data in such a way that:
 
-- Detect trends and patterns.
-- Evaluate the distribution of attributes.
-- Analyze demographic segments and their influence.
-- Illustrate correlations between attributes and the target variable.
+- Detecting trends and patterns.
+- Evaluating the distribution of attributes.
+- Analysing demographic segments and their influence.
+- Illustrating correlations between attributes and the target variable.
 
 ### Insights
 
-#### Evaluation the Distribution of Airbnb Prices
+#### Evaluation of the Distribution of Airbnb Prices:
 
 - Most of the prices fall within the range of 0 to 150 dollars.
 
-#### Airbnb Listings Count by Neighborhood Group
+#### Airbnb Listings Count by Neighborhood Group:
 
-- The table highlights Manhattan as the neighborhood group with the highest count of Airbnb listings Conversely, Staten Island shows the lowest count.
+- The table highlights Manhattan as the neighborhood group with the highest count of Airbnb listings. Conversely, Staten Island shows the lowest count.
 
-#### Average Price Of Each Neighborhood Group
+#### Average Price Of Each Neighborhood Group:
 
 - The average listing price in New York City varies widely by neighborhood. Manhattan has the highest average at 146 dollars per day, while the Bronx has the lowest at around 77 dollars per day.
 
-#### Implications of Airbnb Listings by Room Type
+#### Implications of Airbnb Listings by Room Type:
 
-- Among the listed room types, "Entire home/apt" has the highest number of bookings. The next preference "Private room," followed by "Shared room," which is the least preferred option among the listed room types.
+- Among the listed room types, "Entire home/apt" has the highest number of bookings. The next preference is "Private room," followed by "Shared room," which is the least preferred option among the listed room types.
 
-#### Reviews Count by Neighborhood Group
+#### Reviews Count by Neighborhood Group:
 
-- Brooklyn emerges with the highest total reviews among neighborhood groups, followed closely by Manhattan.
+- Brooklyn emerges with the highest total reviews among the neighborhood groups, followed closely by Manhattan.
 Queens and the Bronx have notable review counts, while Staten Island shows the lowest review count.
 
-#### Room Type Distribution Across Neighborhood Groups
+#### Room Type Distribution Across Neighborhood Groups:
 
-- In the neighborhood group, Manhattan has the highest number of room listings, while Staten Island has the least.
+- In the neighborhood groups, Manhattan has the highest number of room listings, while Staten Island has the least.
 
-#### Identify patterns of association between variables
+#### Analyzing Correlations:
 
-- There is a positive correlation coefficient between total reviews and reviews per month. Other positive correlation relationship between two variables are host id and listing id.
+- There is a positive correlation relationship between total reviews vs reviews per month and host id vs listing id.
 
-#### Price Distribution of each neighbourhood group
+#### Price variation across neighborhood groups:
 
-- Price distribution is very high in Manhattan and Brooklyn, but Manhattan as more diversity in price range overall.
+- Price distribution is very high in Manhattan and Brooklyn when compared to other neighbourhood groups.
 
-#### Price Distribution of each Room Type
+#### Price Distribution of each Room Type:
 - When compared to other room types, the price distribution for 'Entire home/apt' is very high.
 
 
